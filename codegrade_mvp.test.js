@@ -14,7 +14,7 @@ const request = require('supertest')
 const db = require('./data/dbConfig')
 const server = require('./api/server')
 
-const projectA = { project_name: 'Web API', project_description: 'Build APIs' }
+const projectA = { project_name: 'Web API', project_description: 'Build APIs'}
 const projectB = { project_name: 'Databases', project_description: 'Learn SQL', project_completed: 1 }
 const projectC = { project_name: 'Authentication' }
 
